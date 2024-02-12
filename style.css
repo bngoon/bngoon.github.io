@@ -59,14 +59,14 @@ p.wind {
 }
 /* For Mobile */
 @media screen and (max-width: 540px) {
-  .view {
+  .body {
     width: 400px;
   }
 }
 
 /* For Tablets */
 @media screen and (min-width: 540px) and (max-width: 780px) {
-  .view {
+  .body {
     width: 600px;
   }
 }
