@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #222;
+  background-image: url(https://images.unsplash.com/photo-1461301214746-1e109215d6d3?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  border-radius: 30px;
+  /* background: white; */
+  background: #00000061;
+  padding: 4em;
+  margin: 2em;
+  max-width: 420px;
+  position: absolute;
+}
+button {
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+h1 {
+  color: white;
+  text-transform: capitalize;
+}
+p.description {
+  color: white;
+  text-transform: capitalize;
+}
+.tempF {
+  color: white;
+  text-transform: capitalize;
+}
+p.tempC {
+  color: white;
+  text-transform: capitalize;
+}
+p.humidity {
+  color: white;
+  text-transform: capitalize;
+}
+p.wind {
+  color: white;
+  text-transform: capitalize;
+}
+
+
+.searchbar {
+  border: 2px;
+  border-color: black;
+}
+/* For Mobile */
+@media screen and (max-width: 540px) {
+  .view {
+    width: 400px;
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .view {
+    width: 600px;
+  }
+}
